@@ -1,0 +1,13 @@
+{
+    "username": "admin",
+    "project": "my-project",
+    "createdAt": "",
+    "version": "0.1.0",
+    "description": "Dapbase configuration file. Edit as needed.",
+    "environment": "development",  
+    "defaultDatabase": "main",     
+    "logLevel": "info",            
+    "autoBackup": true,            
+    "backupPath": "./backups",     
+    "maxFileSizeMB": 10            
+}

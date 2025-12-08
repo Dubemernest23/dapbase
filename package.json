@@ -1,0 +1,35 @@
+{
+  "name": "dapbase",
+  "version": "1.0.1",
+  "description": "minimal database project",
+  "keywords": [
+    "database",
+    "sql",
+    "dapbase",
+    "project",
+    "minimal"
+  ],
+  "homepage": "https://github.com/Dubemernest23/dapbase#readme",
+  "bugs": {
+    "url": "https://github.com/Dubemernest23/dapbase/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dubemernest23/dapbase.git"
+  },
+  "license": "ISC",
+  "author": "duby",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^30.2.0",
+    "prettier": "^3.7.3"
+  }
+}
