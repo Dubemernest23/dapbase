@@ -1,6 +1,6 @@
 {
   "name": "dapbase",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "minimal database project",
   "keywords": [
     "database",
@@ -21,8 +21,11 @@
   "author": "duby",
   "type": "commonjs",
   "main": "index.js",
+  "bin": {
+    "dapbase": "./cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node cli.js"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
@@ -31,5 +34,11 @@
     "eslint-plugin-node": "^11.1.0",
     "jest": "^30.2.0",
     "prettier": "^3.7.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.2",
+    "inquirer": "^8.2.7",
+    "uuid": "^10.0.0"
   }
 }
