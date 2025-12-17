@@ -1,0 +1,11 @@
+test/
+test-dapbase/
+*.test.js
+*.spec.js
+coverage/
+.DS_Store
+.git/
+.gitignore
+node_modules/
+backups/
+*.log

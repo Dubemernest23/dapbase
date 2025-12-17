@@ -1,13 +1,18 @@
 {
   "name": "dapbase",
-  "version": "2.0.2",
-  "description": "minimal database project",
+  "version": "3.0.1",
+  "description": "A dead-simple, file-based, folder-visible database for Node.js — now with relationships, schema validation, and encryption",
   "keywords": [
     "database",
-    "sql",
-    "dapbase",
-    "project",
-    "minimal"
+    "file-based",
+    "schema",
+    "validation",
+    "relationships",
+    "encryption",
+    "simple",
+    "sqlite",
+    "json",
+    "nosql"
   ],
   "homepage": "https://github.com/Dubemernest23/dapbase#readme",
   "bugs": {
@@ -20,12 +25,16 @@
   "license": "ISC",
   "author": "duby",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "templates/dapbase.connection.js",
   "bin": {
-    "dapbase": "./cli.js"
+    "dapbase": "bin/cli.js"
   },
   "scripts": {
-    "dev": "node cli.js"
+    "dev": "node cli.js",
+    "prepublishOnly": "echo 'Running pre-publish checks...'"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
@@ -39,6 +48,11 @@
     "chalk": "^4.1.2",
     "commander": "^14.0.2",
     "inquirer": "^8.2.7",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "archiver": "^6.0.0",
+    "extract-zip": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
